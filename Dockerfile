@@ -14,6 +14,8 @@ RUN rm cgate-2.10.5_3140.zip
 WORKDIR /clipsal
 COPY cgate.sh .
 COPY set-interface.sh .
+RUN chmod 755 /clipsal/cgate.sh
+RUN chmod 755 /clipsal/set-interface.sh
 
 # We allow open access from all private IP address
 # spaces according to RFC1918.
@@ -51,4 +53,6 @@ RUN ln -s /dev/null event.txt
 
 WORKDIR /clipsal/cgate
 
-ENTRYPOINT ["/clipsal/cgate.sh"]
+#ENTRYPOINT ["/clipsal/cgate.sh"]
+ENTRYPOINT ["bash"]
+
