@@ -13,7 +13,7 @@ RUN rm cgate-2.10.5_3140.zip
 # Put startup scripts in place
 WORKDIR /clipsal
 COPY cgate.sh .
-COPY set_interface.sh .
+COPY set-interface.sh .
 
 # We allow open access from all private IP address
 # spaces according to RFC1918.
