@@ -53,6 +53,9 @@ RUN ln -s /dev/null event.txt
 
 WORKDIR /clipsal/cgate
 
-#ENTRYPOINT ["/clipsal/cgate.sh"]
-ENTRYPOINT ["bash"]
+# Proper Entrypoint
+ENTRYPOINT ["/clipsal/cgate.sh"]
+
+# Debugging Entrypoint
+# ENTRYPOINT ["bash"]
 
