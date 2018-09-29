@@ -6,9 +6,9 @@ EXPOSE 20023
 
 # Install C-Gate
 WORKDIR /clipsal
-COPY cgate/cgate-2.10.5_3140.zip .
-RUN unzip cgate-2.10.5_3140.zip
-RUN rm cgate-2.10.5_3140.zip
+COPY cgate/cgate-2.11.4_3251.zip .
+RUN unzip cgate-2.11.4_3251.zip
+RUN rm cgate-2.11.4_3251.zip
 
 # Put startup scripts in place
 WORKDIR /clipsal
