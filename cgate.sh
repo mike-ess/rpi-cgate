@@ -2,7 +2,7 @@
 
 # Copy (read only) project file from outside the container,
 # into the container in the correct location
-cp /clipsal/original-project/MY-HOME.xml /clipsal/cgate/tag/MY-HOME.xml
+cp /clipsal/original-project/MYHOME.xml /clipsal/cgate/tag/MYHOME.xml
 
 # Modify the project file as required.
 /clipsal/set-interface.sh

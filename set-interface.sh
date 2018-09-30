@@ -8,4 +8,4 @@ perl -i'.backup' -p -e \
 "/"\
 "<Interface><InterfaceType>cni<\/InterfaceType><InterfaceAddress>127.0.0.1:10001<\/InterfaceAddress><\/Interface>"\
 "/gi"\
-  /clipsal/cgate/tag/MY-HOME.xml
+  /clipsal/cgate/tag/MYHOME.xml
